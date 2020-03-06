@@ -1,3 +1,5 @@
+//Without Exception handling and with 3 words
+
 import java.util.Scanner;
 
 class Hangman {
