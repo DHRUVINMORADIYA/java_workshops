@@ -56,10 +56,6 @@ class Hangman {
             System.out.println();
             System.out.print("Do you want to guess another word? Enter y or n>");
             char guessnewword = scan.next().charAt(0);
-            while (guessnewword != 'n' && guessnewword != 'y') {
-                System.out.println("Invalid Entry...");
-                guessnewword = scan.next().charAt(0);
-            }
             if (guessnewword == 'n') {
                 break;
             }
