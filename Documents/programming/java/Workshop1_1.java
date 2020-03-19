@@ -53,15 +53,5 @@ public class Workshop1_1 {
         Location first = new Location();
         first.locateLargest(numbers);
 
-        /*
-         * 
-         * 
-         * int lr = 0; int lc = 0; for (int i = 0; i < r; i++) { for (int j = 0; j < c;
-         * j++) { numbers[i][j] = obj.nextDouble(); } max[i] = numbers[i][0]; for (int j
-         * = 1; j < c; j++) { if (max[i] < numbers[i][j]) { max[i] = numbers[i][j]; lc =
-         * j; } } } double max2 = max[0]; for (int i = 1; i < r; i++) { if (max2 <
-         * max[i]) { max2 = max[i]; lr = i; } }
-         */
-
     }
 }
