@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class Hangman {
+class Workshop2_1_a {
     public static void main(String[] args) {
 
         String[] word = { "bazinga", "einstein", "vocabulary" };
