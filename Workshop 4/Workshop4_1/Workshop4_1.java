@@ -12,18 +12,22 @@ class Workshop4_1 {
             int year = obj.nextInt();
 
             if (year < 2001 || year > 2010) {
-                System.out.println("Enter the year between 2001 to 2010.");
-                System.out.println("Enter the year: ");
-                year = obj.nextInt();
+                do {
+                    System.out.println("Enter the year between 2001 to 2010.");
+                    System.out.println("Enter the year: ");
+                    year = obj.nextInt();
+                } while (year < 2001 || year > 2010);
             }
 
             System.out.println("Enter the gender: ");
             char gender = obj.next().charAt(0);
 
             if (gender != 'm' && gender != 'f') {
-                System.out.println("Enter either f or m.");
-                System.out.println("Enter the gender: ");
-                gender = obj.next().charAt(0);
+                do {
+                    System.out.println("Enter either f or m.");
+                    System.out.println("Enter the gender: ");
+                    gender = obj.next().charAt(0);
+                } while (gender != 'm' && gender != 'f');
             }
 
             Scanner newobj = new Scanner(System.in);
@@ -49,6 +53,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -75,6 +80,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -101,6 +107,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -127,6 +134,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -153,6 +161,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -179,6 +188,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -205,6 +215,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -231,6 +242,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -257,6 +269,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
@@ -283,6 +296,7 @@ class Workshop4_1 {
                             } else {
                                 System.out.println(
                                         "Sorry, name not found.You can try with entering first alphabet in capital latter.");
+                                break;
                             }
 
                         }
