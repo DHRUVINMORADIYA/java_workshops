@@ -1,9 +1,10 @@
+import java.util.Scanner;
 
 public class LearningJava {
     public static void main(String[] args) {
-        if (Double.isNaN(3.1) != true) {
-            System.out.println("true");
-        }
+        Scanner obj = new Scanner(System.in);
+        String name = obj.nextLine();
+        System.out.println(name);
 
     }
 }
